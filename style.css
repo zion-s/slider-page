@@ -1,0 +1,128 @@
+html, body{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: linear-gradient(to top right, rgba(22, 221, 171, 0.61), rgba(113, 197, 236, 0.411)), url("clouds.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.circleContainer{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    color: rgb(199, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    padding-top: 20%;
+}
+.circle>p{
+    font-size: 105%;
+}
+.sliderContainer{
+    width: 50%;
+    height: 50px;
+    border: none;
+    position: absolute;
+    bottom: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.slider{
+    width: 100%;
+    height: 20px;
+    appearance: none;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    outline: none;
+    /* border: 8px solid rgba(41, 41, 41, 0.24); */
+    position: absolute;
+    top: 7px;
+    left: 1%;
+}
+.sliderBorder{
+    background-color: rgb(255, 255, 255);
+    height: 38px;
+    width: 103%;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    opacity: 0.2;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 28px solid rgb(199, 0, 0);;
+    cursor: pointer;
+  }
+
+.myButton {
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius:40px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:18px;
+    padding:17px 50px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #ffffff;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.myButton:hover {
+	background-color:rgba(255, 255, 255, 0.473);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#buttonText{
+    color: white;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RESULT OF THE TEST</h1>
+    <div class="circleContainer">
+        <div class="circle">
+            <i class="fa fa-calendar-times-o fa-3x" aria-hidden="true"></i>
+            <p>Never</p>
+        </div>
+        <div class="circle">
+            <i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+            <p>Occasionally</p>
+        </div>
+        <div class="circle">
+            <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+            <p>4 hours</p>
+        </div>
+        <div class="circle">
+            <i class="fa fa-comment fa-3x" aria-hidden="true"></i>
+            <p>Yearly</p>
+        </div>
+        <div class="circle">
+            <i class="fa fa-calendar-times-o fa-3x" aria-hidden="true"></i>
+            <p>Never</p>
+        </div>
+    </div>
+    <div class="sliderContainer">
+        <div class="sliderBorder"></div>
+        <input type="range" min="0" max="90" value="0" class="slider" id="slider">
+    </div>
+    <a href="#" class="myButton"><span id="buttonText">Try Again&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+</body>
+</html>
